@@ -31,9 +31,17 @@ sudo ./clion.sh
 
 执行安装，会有弹出图形界面选择许可，主题样式等。
 
-![clion_install_1](https://github.com/hp52/Xtudying/image/clion_install_1.jpg)
+![clion_install_1](https://raw.githubusercontent.com/hpcn52/Xtudying/master/image/clion_install_1.jpg)
 
+##### 问题
 
+![clion_install_2](https://raw.githubusercontent.com/hpcn52/Xtudying/master/image/clion_install_2.jpg)
+网上找到解决方法
+```Bash
+cmake -D CMAKE_CXX_COMPILER="gcc" CMAKE -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX:PATH="/usr/local"
+```
 
-
-
+#### Hello, World!
+![clion_install_3_b](https://raw.githubusercontent.com/hpcn52/Xtudying/master/image/clion_install_3_b.jpg)
+![clion_install_3_c](https://raw.githubusercontent.com/hpcn52/Xtudying/master/image/clion_install_3_c.jpg)
+![clion_install_3](https://raw.githubusercontent.com/hpcn52/Xtudying/master/image/clion_install_3.jpg)
